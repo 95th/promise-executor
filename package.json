@@ -1,26 +1,27 @@
 {
-  "name": "promise-executor",
-  "version": "0.1.0",
-  "description": "A promise executor",
-  "main": "index.js",
-  "scripts": {
-    "build": "tsc",
-    "test": "jest"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/95th/promise-executor.git"
-  },
-  "author": "Gurwinder Singh",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/95th/promise-executor/issues"
-  },
-  "homepage": "https://github.com/95th/promise-executor#readme",
-  "devDependencies": {
-    "@types/jest": "^27.4.0",
-    "jest": "^27.4.7",
-    "ts-jest": "^27.1.2",
-    "typescript": "^4.5.4"
-  }
+    "name": "promise-executor",
+    "version": "0.1.0",
+    "description": "A promise executor",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/95th/promise-executor.git"
+    },
+    "author": "Gurwinder Singh",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/95th/promise-executor/issues"
+    },
+    "homepage": "https://github.com/95th/promise-executor#readme",
+    "devDependencies": {
+        "@types/jest": "^27.4.0",
+        "jest": "^27.4.7",
+        "ts-jest": "^27.1.2",
+        "typescript": "^4.5.4"
+    }
 }
